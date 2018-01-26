@@ -2,7 +2,7 @@
 #Jngn diganti hargain creator
 
 import Team Elite
-from LINETCR.lib.curve.ttypes import *
+from Team Elite.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia, goslate
 import timeit
@@ -676,7 +676,7 @@ def bot(op):
                 cl.sendText(msg.to, "☞「 Speed SelfBot 」\n☞ Type: Speed\n☞ Speed : %sseconds" % (elapsed_time))
             elif msg.text.lower() == 'crash':
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ud7a8fbcc2af037c2c5bf181b89fda5f7',"}
+                msg.contentMetadata = {'mid': "u63b477a73bc4dc8f08dd9a2ae572ad14',"}
                 cl.sendMessage(msg)
             elif msg.text.lower() == 'me':
                 msg.contentType = 13
@@ -925,7 +925,7 @@ def bot(op):
                 cl.sendMessage(msg)
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ud7a8fbcc2af037c2c5bf181b89fda5f7"}
+                msg.contentMetadata = {'mid': "u63b477a73bc4dc8f08dd9a2ae572ad14"}
                 cl.sendMessage(msg)
             elif msg.text.lower() == 'autoadd on':
                 if wait["autoAdd"] == True:
