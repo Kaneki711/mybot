@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
+#Jngn diganti hargain creator
 
-import LINETCR
+import Team Elite
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia, goslate
@@ -21,11 +22,11 @@ else:
     import urllib.request
     import urllib.parse
 
-cl = LINETCR.LINE()
-cl.login(token="(Isi TOKEN Kamu)")
+cl = Team Elite.LINE()
+cl.login(token="isi Toekent lu :v")
 cl.loginResult()
 
-print "==================[Login Success]==================="
+print "==================[Created by Ciel]==================="
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -155,15 +156,15 @@ wait = {
     'leaveRoom':False,
     'timeline':True,
     'autoAdd':True,
-    'message':"Thanks for add me ^_^",
+    'message':"My creator : https://line.me/ti/p/%40luw8183j",
     "lang":"JP",
-    "comment":"Haii Kaka",
+    "comment":"Haii Kaka add my contact : https://line.me/ti/p/%40luw8183j ( ´ - ` )",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cNames":"ই͜✿ই͜Muhammad ই͜Fahmi ই͜Ridhani✿",
+    "cNames":"ই͜Cই͜I ই͜E ই͜L",
     "cNames":"",
     "blacklist":{},
     "wblacklist":False,
