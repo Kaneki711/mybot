@@ -520,9 +520,9 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("=============[SHINIGAMI FOR BOT]==============")
-      print("====[ Editing for Muhammad Fahmi Ridhani ]====")
-      print("==============================================")
+      print("=======[Copyright By T E A M E L I T E]==============")
+      print("====[ Creator by Ciel ]====")
+      print("Follow my instagram @ardansahrul991/@yatogamitohka.1")
       print("MID : " + prof.mid)
       print("NAME : " + prof.displayName)
       print("authToken :  " + self.authToken)
